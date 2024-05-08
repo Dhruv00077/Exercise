@@ -1,0 +1,32 @@
+<!-- write html code to style a paragraph inside a div which contains 5 other paragraph. The first paragraph must have bgc-yellow and text color red  and the other paragraph must have bgc-blue and text color white The html writen below your reference -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <style>
+        
+        p{
+            background-color: blue;
+            color: white;
+        }
+        div p:first-child{
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, molestias laborum obcaecati enim ea numquam voluptatum quisquam libero, asperiores minima molestiae nostrum dolor.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur magni explicabo pariatur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas explicabo laborum ipsam excepturi tenetur!</p>
+</div>
+<div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+</div>
+</body>
+</html>
